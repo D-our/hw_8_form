@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 15px;
+}
+
+h2,
+p {
+    color: #244C8E;
+}
+
+p {
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    color: #808080;
+    padding: 10px;
+    background-color: #E4E8ED;
+}
+
+input {
+    border: none;
+    margin-left: 100px;
+}
+
+label {
+    color: #808080;
+}
+
+select {
+    border: none;
+}
+
+.select__city--m {
+    margin-left: 20px;
+}
+
+.select__course--m {
+    margin-left: 10px;
+}
+
+.regform__wrapper {
+    width: 400px;
+    margin: 200px auto;
+}
+
+.regform {
+    width: 100%;
+}
+
+.regform__header {
+    width: 100%;
+    background-color: #F6F6F6;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.regform__header--1 {
+    display: flex;
+    margin: 19px 20px 0px 20px;
+}
+
+.modal {
+    position: absolute;
+    right: 27px;
+    top: 27px;
+}
+
+.question {
+    padding-top: 2px;
+}
+
+.main {
+    width: 100%;
+}
+
+.yellow_name {
+    width: 10px;
+    height: 10px;
+    background-color: #FEAC30;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.green_name {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red_name {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn_buttom {
+    background: #F6F6F6;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    padding: 15px 30px 15px 30px;
+    margin-top: 30px;
+}
+
+.btn {
+    text-align: center;
+    background-color: #E4E8ED;
+    border-radius: 5px;
+}
+
+.name,
+.email,
+.tel,
+.select_city,
+.course {
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid #EEEEEE;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}

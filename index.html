@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="regform__wrapper">
+        <div class="regform">
+            <div class="regform__header">
+                <div class="regform__header--1 ">
+                    <h2>Заявка на регистрацию</h2>
+                    <span><img class="modal" src="images\images\modal_close.svg" alt=""></span>
+                </div>
+
+                <div class="regform__header--1 ">
+                    <span><img class="question" src="images\images\question.svg" alt=""></span>
+                    <p>Оставьте ваши контактные данные,<br> и мы вам обязательно перезвоним!</p>
+                </div>
+            </div>
+            <div class="main">
+                <form action="index.html" method="POST">
+                    <div class="form__wrapper">
+                        <div class="name">
+                            <div>
+                                <span class="yellow_name"></span>
+                                <label for="name" class="first__label">name</label>
+                            </div>
+                            <input id="name" class="first__name" type="text" name="user__name" placeholder="Mark" required><br><br>
+                        </div>
+                        <div class="email">
+                            <div>
+                                <span class="yellow_name"></span>
+                                <label for="email" class="first__label">email</label>
+                            </div>
+                            <input id="email" class="first__mail" type="email" name="user__email" placeholder="xxxxxx@mail.com" required><br><br>
+                        </div>
+
+                        <div class="tel">
+                            <div>
+                                <span class="yellow_name"></span>
+                                <label for="email" class="first__label">phone</label>
+                            </div>
+
+                            <input id="tel" class="first__phone" type="tel" name="user__phone" placeholder="+380(xx)xx-xx-xx" required><br><br>
+                        </div>
+
+                        <div class="select_city">
+                            <div>
+                                <span class="green_name"></span>
+                                <label for="city">City</label>
+                            </div>
+                            <div class="select__city--m">
+                                <select name="city" id="city">
+                                    <option value="c1">Kiev</option>
+                                    <option value="c2">Kharkiv</option>
+                                    <option value="c3">Odessa</option>
+                                </select>
+                            </div>
+
+                            <br><br>
+                        </div>
+
+                        <div class="course">
+                            <div>
+                                <span class="red_name"></span>
+                                <label for="course">Course</label>
+                            </div>
+                            <div class="select__course--m">
+                                <select name="course" id="course">
+                                    <option value="course_1" placeholder="choose the course">Front-End</option>
+                                    <option value="course_2">Front-End</option>
+                                    <option value="course_3">Front-End</option>
+                                </select>
+                            </div>
+
+                            <br><br>
+                        </div>
+
+                        <div class="btn_buttom">
+                            <div class="btn">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+
+        </form>
+    </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
