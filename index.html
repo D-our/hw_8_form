@@ -4,101 +4,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
-    <title>Form</title>
+    <title>First_screen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="regform__wrapper">
-        <div class="regform">
-            <div class="regform__header">
-                <div class="regform__header--1 ">
-                    <h2>Заявка на регистрацию</h2>
-                    <span><img class="modal" src="images\images\modal_close.svg" alt=""></span>
+    <div class="container__1">
+        <div class="wrapper">
+            <header class="header">
+                <div class="main__menu">
+                    <nav class="cities">
+                        <div class="primary_nav_wrap">
+                            <nav id="menu" role="navigation">
+                                <div class="menu">
+                                    <ul class="nav menu">
+                                        <li><span class="nav__header">КИЕВ</span>
+                                            <ul class="nav__child">
+                                                <li><a href="#">О школе</a></li>
+                                                <li><a href="#">Предподаватели</a></li>
+                                                <li><a href="#">Стать предподавателем</a></li>
+                                                <li><a href="#">Отзывы</a>
+                                                    <hr>
+                                                </li>
+                                                <li>
+                                                    <span><img class="heart" src="images/heart.svg"
+                                                            alt="heart"></span><a href="#">Проверка сертификата</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">ОДЕССА</a></li>
+                                        <li><a href="#">ДНЕПР</a></li>
+                                        <li><a href="#">ХАРЬКОВ</a></li>
+                                        <li><a class="online" href="#">online</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </nav>
+                    <nav class="contacts">
+                        <img src="images/phone-call.svg" alt="phone">
+                        <a href="#">+38 (093) 543 77 47</a>
+                        <img src="images/email.svg" alt="email">
+                        <a href="#">kyiv@ithillel@gmail.com</a>
+                    </nav>
+                    <nav class="lang">
+                        <a href="">рус</a>
+                        <a href="">укр</a>
+                    </nav>
                 </div>
+            </header>
 
-                <div class="regform__header--1 ">
-                    <span><img class="question" src="images\images\question.svg" alt=""></span>
-                    <p>Оставьте ваши контактные данные,<br> и мы вам обязательно перезвоним!</p>
+            <div class="main">
+                <div class="container__2">
+                    <div class="intro__wrapper">
+                        <section class="intro__inner">
+                            <img class="logo__intro" src="images/logo-intro.svg" alt="logo">
+                            <p>Учись ради мечты!</p>
+                            <hr>
+                            <a href="#" style="" class="btn js-open-modal" data-modal="1">Засписаться на курс</a>
+                        </section>
+                        <section class="map">
+                            <span class="map__inner">
+                                <img src="images/map__ukraine.svg" alt="map">
+                                <a class="map__city__kiev" href="">
+                                    <div class="map__city">
+                                        <p>Киев</p>
+                                        <img src="images/map-location.svg" alt="">
+                                    </div>
+                                </a>
+                                <a class="map__city__kharkiv" href="">
+                                    <div class="map__city">
+                                        <p>Харьков</p>
+                                        <img src="images/map-location.svg" alt="">
+                                    </div>
+                                </a>
+                                <a class="map__city__dnepr" href="">
+                                    <div class="map__city">
+                                        <p>Днепр</p>
+                                        <img src="images/map-location.svg" alt="">
+                                    </div>
+                                </a>
+                                <a class="map__city__odessa" href="">
+                                    <div class="map__city">
+                                        <p>Одесса</p>
+                                        <img src="images/map-location.svg" alt="">
+                                    </div>
+                                </a>
+                            </span>
+                        </section>
+                    </div>
+                    <section class="statistics">
+                        <div class="statistics__1">
+                            <div class="inline__wrapper__1">
+                                <div class="inline__img">
+                                    <img class="amount__icon" src="images/first__screen/icon-shuttle.svg" alt="#">
+                                </div>
+                                <div class="inline">
+
+                                    <p class="green"><span>12000</span></p>
+                                    <p class="plus"><span>+</span></p>
+                                    <p class="six"><span>Выпускников<br>Школы</span></p>
+                                </div>
+                            </div>
+                            <div class="inline__wrapper__1">
+                                <div class="inline__img">
+                                    <img class="amount__icon" src="images/first__screen/icon-shuttle.svg" alt="#">
+                                </div>
+                                <div class="inline">
+                                    <p class="green">12000</p>
+                                    <p class="six">Выпускников школы</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statistics__wrapper__3">
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-age.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">7<span class="year">лет</span></p>
+                                    <p>Школа предоставляет<br>образовательные услуги</p>
+                                </div>
+                            </div>
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-visitors.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">3500<span class="plus_2">+</span></p>
+                                    <p>человек в день посещают сайт школы</p>
+                                </div>
+                            </div>
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-cities.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">4<span class="year">города</span></p>
+                                    <p>Киев, Одесса, Днепр, Харьков</p>
+                                </div>
+                            </div>
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-coaches.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">200<span class="plus_2">+</span></p>
+                                    <p>преподавателей-практиков</p>
+                                </div>
+                            </div>
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-employment.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">43<span class="year">%</span></p>
+                                    <p>трудоустроенных студентов</p>
+                                </div>
+                            </div>
+
+                            <div class="inline__wrapper__3">
+                                <div class="inline__3"><img src="images/first__screen/icon-salary.svg" alt=""></div>
+                                <div class="inline__3">
+                                    <p class="green__1">21600<span class="year">грн/мес</span></p>
+                                    <p>со старта составила рекордная<br>зарплата Выпускника</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-            <div class="main">
-                <form action="index.html" method="POST">
-                    <div class="form__wrapper">
-                        <div class="name">
-                            <div>
-                                <span class="yellow_name"></span>
-                                <label for="name" class="first__label">name</label>
-                            </div>
-                            <input id="name" class="first__name" type="text" name="user__name" placeholder="Mark" required><br><br>
-                        </div>
-                        <div class="email">
-                            <div>
-                                <span class="yellow_name"></span>
-                                <label for="email" class="first__label">email</label>
-                            </div>
-                            <input id="email" class="first__mail" type="email" name="user__email" placeholder="xxxxxx@mail.com" required><br><br>
-                        </div>
 
-                        <div class="tel">
-                            <div>
-                                <span class="yellow_name"></span>
-                                <label for="email" class="first__label">phone</label>
-                            </div>
+        </div>
+    </div>
 
-                            <input id="tel" class="first__phone" type="tel" name="user__phone" placeholder="+380(xx)xx-xx-xx" required><br><br>
-                        </div>
 
-                        <div class="select_city">
-                            <div>
-                                <span class="green_name"></span>
-                                <label for="city">City</label>
-                            </div>
-                            <div class="select__city--m">
-                                <select name="city" id="city">
-                                    <option value="c1">Kiev</option>
-                                    <option value="c2">Kharkiv</option>
-                                    <option value="c3">Odessa</option>
-                                </select>
+
+
+
+
+
+
+
+    <div>
+        <div class="overlay js-overlay-modal"></div>
+        <div class="modal" data-modal="1">
+
+            <a title="Закрыть" class="modal__cross js-modal-close">&times;</a>
+            <div>
+
+
+
+                <div>
+                    <div class="regform__wrapper">
+                        <div class="regform__header">
+                            <div class="regform__header--1 ">
+                                <h2>Заявка на регистрацию</h2>
+                                <img class="modal" src="images\modal_close.svg" alt="">
                             </div>
 
-                            <br><br>
-                        </div>
-
-                        <div class="course">
-                            <div>
-                                <span class="red_name"></span>
-                                <label for="course">Course</label>
-                            </div>
-                            <div class="select__course--m">
-                                <select name="course" id="course">
-                                    <option value="course_1" placeholder="choose the course">Front-End</option>
-                                    <option value="course_2">Front-End</option>
-                                    <option value="course_3">Front-End</option>
-                                </select>
-                            </div>
-
-                            <br><br>
-                        </div>
-
-                        <div class="btn_buttom">
-                            <div class="btn">
-                                <button type="submit">Submit</button>
+                            <div class="regform__header--1 ">
+                                <img class="question" src="images\question.svg" alt="">
+                                <p>Оставьте ваши контактные данные,<br> и мы вам обязательно перезвоним!</p>
                             </div>
                         </div>
+                        <div class="main__2">
 
+                            <form action="index.html" class="main_form" method="POST">
+                                <div class="revers">
+                                    <input type="text" value="" id="name" placeholder="Anna" pattern="^[А-ЯЁа-яё]*$" required>
+                                    <label for="name">Name*</label>
+                                </div>
+                                <div class="revers">
+                                    <input type="email" value="" id="email" placeholder="xxxxxx@mail.com" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                                    <label for="name">email*</label>
+                                </div>
+                                <div class="revers">
+                                    <input type="tel" value="" id="tel" placeholder="+7(___)___-__-__" pattern="[0-9]{,8}" required>
+                                    <label for="name">phone*</label>
+                                </div>
+
+                                <div class="revers">
+                                    <select name="city" id="city" required>
+                                        <option required disabled selected value="" placeholder="choose the city">
+                                            Choice</option>
+                                        <option value="c1">Kiev</option>
+                                        <option value="c2">Kharkiv</option>
+                                        <option value="c3">Odessa</option>
+                                    </select>
+                                    <label for="city">City*</label>
+                                </div>
+
+                                <div class="revers">
+                                    <select name="course" id="course" required>
+                                        <option disabled selected value="choose the course"
+                                            placeholder="choose the course">Choice</option>
+                                        <option value="course_1" placeholder="choose the course">Front-End</option>
+                                        <option value="course_2" placeholder="choose the course">Front-End</option>
+                                        <option value="course_3" placeholder="choose the course">Front-End</option>
+                                    </select>
+                                    <label for="course">Course*</label>
+                                </div>
+                                <div class="btn_buttom">
+                                    <button class="btn__2" type="submit">Submit</button>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
+                </div>
+
+
 
             </div>
         </div>
 
-        </form>
-    </div>
 
-    </div>
-
-    </div>
-
+        <script type="text/javascript" src="js/modal.js"></script>
 </body>
 
 </html>
